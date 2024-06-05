@@ -5,17 +5,17 @@ This folder contains a series of tutorials designed to help users get started wi
 
 ## Tutorials Overview
 
-1. **Tutorial-1**
+### 1. Tutorial-1
    - Introduction to SoC systems
    - Basic setup and configuration
    - First steps in hardware video processing
 
-2. **Tutorial-2**
+### 2. Tutorial-2
    - Advanced configuration and optimization
    - Implementing video processing algorithms
    - Performance evaluation
 
-3. **Tutorial-3**
+### 3. Tutorial-3
    - Custom video processing pipelines
    - Integration with external devices
    - Real-world application scenarios
