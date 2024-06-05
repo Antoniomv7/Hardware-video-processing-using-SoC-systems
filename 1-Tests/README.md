@@ -13,6 +13,7 @@ In this section, you will learn how to:
 
 - PYNQ-Z2 board
 - Vivado Design Suite
+- Jupyter Notebook
 - Basic knowledge of FPGA design and video processing
 
 ## Steps
