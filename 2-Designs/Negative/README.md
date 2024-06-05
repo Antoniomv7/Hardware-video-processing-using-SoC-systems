@@ -5,16 +5,15 @@ This section focuses on the implementation of a negative filter for video proces
 ## Overview
 
 In this section, you will learn how to:
-- Implement a negative filter in software.
+- Implement a negative filter in software using Jupyter with the original PYNQ-Z2 overlay.
 - Develop and test a hardware version of the negative filter using Vitis HLS and Vivado.
 - Compare the performance of the software and hardware implementations.
 
 ## Prerequisites
 
 - PYNQ-Z2 board
-- Vivado Design Suite and Vitis HLS
-- Jupyter Notebook
-- Basic knowledge of C/C++ programming, Verilog/VHDL and Python
+- Vivado Design Suite, Vitis HLS and Jupyter Notebook
+- Basic knowledge of Python, C/C++ programming, and Verilog/VHDL
 - Familiarity with FPGA design and video processing
 
 ## Sections
@@ -26,7 +25,8 @@ In this section, you will learn how to:
 - **Board Setup**: Connect the PYNQ-Z2 board to your computer and configure it as described in the PDF.
 
 #### 1.2 Implementing the Negative Filter in Software
-- **Write C/C++ Code**: Develop the negative filter algorithm in C/C++.
+- **Access Jupyter Notebook**: Open a web browser and connect to the PYNQ-Z2 board's Jupyter Notebook interface.
+- **Write Python Code**: Develop the negative filter algorithm in Python using the original PYNQ-Z2 overlay.
 - **Testing**: Test the software implementation with sample video data to ensure it functions correctly.
 
 #### 1.3 Performance Analysis
