@@ -44,5 +44,3 @@ For any questions or feedback, please open an issue on the main repository.
 ---
 
 © 2024 Antoniomv7. All rights reserved.
-
-This `README.md` file provides an overview of the tutorials available in the `0-Tutorials` folder and offers guidance on how to get started with each tutorial.
