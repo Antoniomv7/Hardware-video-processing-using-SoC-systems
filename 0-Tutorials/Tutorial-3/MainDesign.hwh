@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Oct 13 11:47:36 2023" VIVADOVERSION="2022.2">
+
+  <SYSTEMINFO ARCH="zynq" BOARD="tul.com.tw:pynq-z2:part0:1.0" DEVICE="7z020" NAME="MainDesign" PACKAGE="clg400" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="O" NAME="LD0" SIGIS="undef" SIGNAME="ClockDivider_1_CLK_OUT">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ClockDivider_1" PORT="CLK_OUT"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="LD1" SIGIS="undef" SIGNAME="ClockDivider_2_CLK_OUT">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ClockDivider_2" PORT="CLK_OUT"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="LD2" SIGIS="undef" SIGNAME="ClockDivider_3_CLK_OUT">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ClockDivider_3" PORT="CLK_OUT"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="LD3" SIGIS="undef" SIGNAME="ClockDivider_0_CLK_OUT">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ClockDivider_0" PORT="CLK_OUT"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT CLKFREQUENCY="125000000" DIR="I" NAME="CLK_IN" SIGIS="clk" SIGNAME="External_Ports_CLK_IN">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ClockDivider_1" PORT="CLK_IN"/>
+        <CONNECTION INSTANCE="ClockDivider_2" PORT="CLK_IN"/>
+        <CONNECTION INSTANCE="ClockDivider_3" PORT="CLK_IN"/>
+        <CONNECTION INSTANCE="ClockDivider_0" PORT="CLK_IN"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/ClockDivider_0" HWVERSION="1.0" INSTANCE="ClockDivider_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ClockDivider" VLNV="xilinx.com:module_ref:ClockDivider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DIVISOR" VALUE="0x0EE6B28"/>
+        <PARAMETER NAME="Component_Name" VALUE="MainDesign_ClockDivider_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="CLK_IN" SIGIS="undef" SIGNAME="External_Ports_CLK_IN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK_IN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="CLK_OUT" SIGIS="undef" SIGNAME="ClockDivider_0_CLK_OUT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="LD3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ClockDivider_1" HWVERSION="1.0" INSTANCE="ClockDivider_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ClockDivider" VLNV="xilinx.com:module_ref:ClockDivider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DIVISOR" VALUE="0x7735940"/>
+        <PARAMETER NAME="Component_Name" VALUE="MainDesign_ClockDivider_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="CLK_IN" SIGIS="undef" SIGNAME="External_Ports_CLK_IN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK_IN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="CLK_OUT" SIGIS="undef" SIGNAME="ClockDivider_1_CLK_OUT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="LD0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ClockDivider_2" HWVERSION="1.0" INSTANCE="ClockDivider_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ClockDivider" VLNV="xilinx.com:module_ref:ClockDivider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DIVISOR" VALUE="0x3B9ACA0"/>
+        <PARAMETER NAME="Component_Name" VALUE="MainDesign_ClockDivider_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="CLK_IN" SIGIS="undef" SIGNAME="External_Ports_CLK_IN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK_IN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="CLK_OUT" SIGIS="undef" SIGNAME="ClockDivider_2_CLK_OUT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="LD1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/ClockDivider_3" HWVERSION="1.0" INSTANCE="ClockDivider_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ClockDivider" VLNV="xilinx.com:module_ref:ClockDivider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DIVISOR" VALUE="0x1DCD650"/>
+        <PARAMETER NAME="Component_Name" VALUE="MainDesign_ClockDivider_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="CLK_IN" SIGIS="undef" SIGNAME="External_Ports_CLK_IN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK_IN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="CLK_OUT" SIGIS="undef" SIGNAME="ClockDivider_3_CLK_OUT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="LD2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>
