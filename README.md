@@ -1,5 +1,3 @@
-
-```markdown
 # Hardware Video Processing using SoC Systems
 
 This project focuses on implementing video processing algorithms using System on Chip (SoC) systems. The goal is to leverage the compact, energy-efficient, and high-performance capabilities of SoC systems to enhance real-time video processing.
@@ -78,6 +76,6 @@ For any inquiries or feedback, please open an issue on GitHub.
 ---
 
 © 2024 Antoniomv7. All rights reserved.
-```
+
 
 This `README.md` provides a structured overview of the project, including setup instructions, usage, and contribution guidelines. Feel free to modify it to better suit the specifics of your project.
