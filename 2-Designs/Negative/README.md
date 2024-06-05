@@ -13,7 +13,8 @@ In this section, you will learn how to:
 
 - PYNQ-Z2 board
 - Vivado Design Suite and Vitis HLS
-- Basic knowledge of C/C++ programming and Verilog/VHDL
+- Jupyter Notebook
+- Basic knowledge of C/C++ programming, Verilog/VHDL and Python
 - Familiarity with FPGA design and video processing
 
 ## Sections
