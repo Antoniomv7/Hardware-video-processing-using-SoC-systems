@@ -1,40 +1,38 @@
 # Tutorial 1: Fun with LEDs and Switches
 
-This tutorial introduces basic concepts and practices for working with SoC systems, specifically using LEDs and switches on the PYNQ-Z2 board. It is based on the guide by Umer Farooq.
+This tutorial introduces basic concepts and practices for working with SoC systems, specifically using LEDs and switches on the PYNQ-Z2 board. It follows the detailed steps provided in the accompanying PDF document.
 
 ## Overview
 
 In this tutorial, you will learn how to:
 - Set up your PYNQ-Z2 board.
-- Write simple hardware description language (HDL) code to control LEDs and read switch states.
-- Deploy and test your design on the hardware.
+- Write simple Python code to control LEDs and read switch states.
 
 ## Prerequisites
 
 - PYNQ-Z2 board
-- Vivado Design Suite
-- Basic knowledge of Verilog or VHDL
-- Familiarity with FPGA design flow
+- Jupyter Notebook
+- Basic knowledge of Python
 
-## Getting Started
+## Steps
 
-1. **Set Up Your Board:**
-   - Connect the PYNQ-Z2 board to your computer.
-   - Install necessary drivers and software tools.
+### 1. Set Up Your Board
+- **Required Elements**: PYNQ-Z2 board, micro-SD card, Ethernet cable, micro-USB cable, external micro-SD card reader.
+- **Prepare the micro-SD card**: Download the PYNQ image from the [official website](http://www.pynq.io/board.html), write it to the micro-SD card using a tool like [Win32 Disk Imager](https://win32diskimager.download/).
 
-2. **Write HDL Code:**
-   - Create a new project in Vivado.
-   - Write Verilog or VHDL code to control LEDs and read from switches.
-   - Synthesize and implement your design.
+### 2. Configure the Board
+- **Power and Connectivity**: Insert the micro-SD card into the board, connect the board to your computer using the micro-USB cable, and optionally connect the Ethernet cable for internet access.
 
-3. **Deploy and Test:**
-   - Generate the bitstream.
-   - Load the bitstream onto the PYNQ-Z2 board.
-   - Test the functionality of LEDs and switches.
+### 3. Interacting with Jupyter
+- **Access Jupyter Notebook**: Open a web browser and connect to the board's IP address to access Jupyter Notebook. Use the default credentials (`xilinx` for both username and password).
+
+### 4. Example: Blinking LEDs
+- **Write Python Code**: Use the Jupyter Notebook to write Python code that interacts with the PYNQ-Z2 board. Example code to control LEDs using switches is provided in the PDF.
 
 ## Resources
 
 - Detailed guide: [Fun with LEDs and Switches](https://blog.umer-farooq.com/a-pynq-z2-guide-for-absolute-dummies-part-i-fun-with-leds-and-switches-47dd76abf9a9)
+- [Anexo: Tutorial de conexión y funcionamiento de la Pynq-Z2](../Anexo.%20Tutorial%20de%20conexi%C3%B3n%20y%20funcionamiento%20de%20la%20Pynq-Z2.pdf)
 
 ## Contributing
 
