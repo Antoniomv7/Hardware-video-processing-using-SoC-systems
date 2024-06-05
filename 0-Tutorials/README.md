@@ -1,4 +1,3 @@
-```markdown
 # Tutorials
 
 This folder contains a series of tutorials designed to help users get started with hardware video processing using System on Chip (SoC) systems. Each tutorial focuses on different aspects of the setup, configuration, and implementation of video processing tasks.
@@ -45,6 +44,5 @@ For any questions or feedback, please open an issue on the main repository.
 ---
 
 © 2024 Antoniomv7. All rights reserved.
-```
 
 This `README.md` file provides an overview of the tutorials available in the `0-Tutorials` folder and offers guidance on how to get started with each tutorial.
